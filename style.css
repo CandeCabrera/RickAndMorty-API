@@ -57,6 +57,7 @@ button{
     color: white;
     background: rgba(93, 94, 95, 0.382);
     backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
     box-shadow: 0 0 1px rgb(181, 180, 180);
 }
 
@@ -83,6 +84,7 @@ main{
     justify-content: space-between;
     background: rgba(93, 94, 95, 0.382);
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     border-radius: 10px;
     overflow: hidden;
     
@@ -121,6 +123,7 @@ footer{
     height: fit-content;
     background: rgba(63, 27, 101, 0.474);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     position: fixed;
     bottom: 0;
     z-index: 1;
