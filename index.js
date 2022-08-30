@@ -57,11 +57,10 @@ all.addEventListener('click', ()=>{
 
 
 
-function getCharacters(caca) {
-    console.log("caca", caca);
+function getCharacters(data) {
     let html = "";
 
-    caca.results.forEach(character => {
+    data.results.forEach(character => {
         
        html += `<article class="character-card">
             <div    class="character-image">
@@ -83,9 +82,9 @@ function getCharacters(caca) {
     main.innerHTML = html
 };
 
-// function getCharacters(caca) {
-//     console.log("caca", caca);
-//     caca.results.forEach(character => {
+// function getCharacters(data) {
+//     
+//     data.results.forEach(character => {
         
 //         const card = document.createRange().createContextualFragment(`<article class="character-card">
 //             <div    class="character-image">
